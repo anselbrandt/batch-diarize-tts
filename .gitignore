@@ -1,0 +1,10 @@
+__pycache__/
+clean/
+output/
+temp/
+*.srt
+*.wav
+*.mp3
+*.m4a
+*.pkl
+logs.txt
