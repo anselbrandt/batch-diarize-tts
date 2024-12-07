@@ -74,7 +74,7 @@ pkl_out_path = os.path.join(out_dir, audio_filename.replace(".wav", ".pkl"))
 
 
 nemo_process = subprocess.Popen(
-    ["python3", "nemo_process.py", "-a", audio_filepath, "--device", device],
+    ["python", "nemo_process.py", "-a", audio_filepath, "--device", device],
     stderr=subprocess.PIPE,
 )
 # Transcribe the audio file
